@@ -136,3 +136,8 @@ html {
 .calculator [data-state="selected"] {
   background: var(--grey-200);
 }
+@media(max-width:430px){
+  .calculator__display {
+    width: 12.25rem;
+  }
+}
